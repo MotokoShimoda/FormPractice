@@ -1,0 +1,120 @@
+body {
+  background-color: #7bc6a2;
+}
+
+h1 {
+  text-align: center;
+  font-weight: normal;
+}
+
+h2 {
+  font-weight: normal;
+  text-align: center;
+  padding-top: 40px;
+}
+.form {
+  background-color: #fcfcfa;
+  margin: 0 auto;
+  width: 600px;
+}
+
+.required {
+  color: red;
+}
+
+.span {
+  color: black;
+}
+
+.selectarea {
+  display: flex;
+}
+
+select {
+  width: 150px;
+  height: 25px;
+  border: 1px #d3d3d3 solid;
+}
+
+input {
+  width: 80%;
+  height: 25px;
+  border: 1px #d3d3d3 solid;
+}
+
+.input_section {
+  margin-bottom: 10px;
+}
+
+.gender {
+  display: flex;
+}
+
+.gender_type {
+  display: flex;
+}
+
+.gender span {
+  font-size: 12px;
+}
+.gender_content {
+  width: 12px;
+  height: 12px;
+}
+
+h2,
+h3 {
+  font-weight: normal;
+}
+
+.label_text {
+  font-size: 12px;
+}
+
+.account_create {
+  font-size: 12px;
+}
+
+.personal_account {
+  padding-left: 40px;
+  margin-bottom: 20px;
+}
+
+.account_info {
+  padding-left: 40px;
+  margin-bottom: 20px;
+}
+
+.contact {
+  padding-left: 40px;
+  margin-bottom: 20px;
+}
+
+.subscription_contents {
+  padding-left: 40px;
+  margin-bottom: 20px;
+}
+
+.sub_content {
+  width: 12px;
+  height: 12px;
+  border: 1px #d3d3d3 solid;
+}
+.btn {
+  width: 80%;
+  height: 30px;
+  text-align: center;
+  color: white;
+  background-color: #262c35;
+}
+.account_create {
+  text-align: center;
+}
+
+.input_subscription {
+  display: flex;
+}
+
+.account_create p {
+  text-align: center;
+}
