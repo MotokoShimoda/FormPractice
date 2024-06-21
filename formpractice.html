@@ -16,18 +16,18 @@
         <div class="personal_account">
           <h3>個人情報</h3>
           <div class="input_section">
-            <label class="label_text">
-              苗字
+            <label class="label_text" for="familyname">
+              名字
               <span class="required">※</span>
             </label>
-            <input class="inputarea" type="text" name="name" />
+            <input class="inputarea" type="text" name="name" id="familyname" />
           </div>
           <div class="input_section">
-            <label class="label_text">
+            <label class="label_text" for="name">
               名前
               <span class="required">※</span>
             </label>
-            <input type="text" />
+            <input type="text" id="name" />
           </div>
           <div class="input_section">
             <label class="label_text">
@@ -87,15 +87,15 @@
               <p class="label_text">性別<span class="required">※</span></p>
               <div class="gender">
                 <label class="gender_type">
-                  <input class="gender_content" type="checkbox" name="man" />
+                  <input class="gender_content" type="radio" name="gender" />
                   <span>男性</span>
                 </label>
                 <label class="gender_type">
-                  <input class="gender_content" type="checkbox" name="woman" />
+                  <input class="gender_content" type="radio" name="gender" />
                   <span>女性</span>
                 </label>
                 <label class="gender_type">
-                  <input class="gender_content" type="checkbox" name="other" />
+                  <input class="gender_content" type="radio" name="gender" />
                   <span>その他</span>
                 </label>
               </div>
@@ -118,25 +118,25 @@
             <label class="label_text" for="account_name">
               アカウント名<span class="required">※</span>
             </label>
-            <input type="text" />
+            <input type="text" id="account_name" />
           </div>
           <div class="input_section">
             <label class="label_text" for="mail">
               メールアドレス<span class="required">※</span>
             </label>
-            <input type="text" />
+            <input type="text" id="mail" />
           </div>
           <div class="input_section">
             <label class="label_text" for="password">
               パスワード<span class="required">※</span>
             </label>
-            <input type="text" />
+            <input type="text" id="password" />
           </div>
           <div class="input_section">
             <label class="label_text" for="password_re">
               パスワード再入力<span class="required">※</span>
             </label>
-            <input type="text" />
+            <input type="text" id="password_re" />
           </div>
         </div>
         <div class="contact">
@@ -145,13 +145,13 @@
             <label class="label_text" for="adress">
               住所<span class="required">※</span>
             </label>
-            <input type="text" />
+            <input type="text" id="adress" />
           </div>
           <div class="input_section">
             <label class="label_text" for="number">
               電話番号<span class="required">※</span>
             </label>
-            <input type="text" />
+            <input type="text" id="number" />
           </div>
         </div>
         <div class="subscription_contents">
